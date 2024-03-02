@@ -1,0 +1,30 @@
+h2:hover{
+    background-color: aqua;
+    font-size: 25px;
+    transform: rotate(180deg);
+}
+
+
+
+.container{
+     height: 200px;
+     width: 200px;
+     background-color: brown;
+     border: 2px solid green;
+     margin-top: 20px;
+    
+}
+.inner{
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    border: 2px solid red;
+    text-align: center;
+    /* transform: scale(0.75); */
+    /* transform: translate(50px,40px); */
+    /* transform: translateX(50px); */
+    /* transform: translateY(50px); */
+    /* transform: translateZ(50px); */
+    /* transform: rotate(60deg); */
+    transform: scale(0.75) translate(50px,50px) rotate(45deg);
+}
